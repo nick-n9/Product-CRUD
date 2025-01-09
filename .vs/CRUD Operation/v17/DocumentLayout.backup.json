@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\data\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\data\\dataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\views\\category\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|c:\\users\\k.d. nimavat\\source\\repos\\crud operation\\crud operation\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C11DD89-5EEB-4401-9A82-241DBEC00AF0}|CRUD Operation\\CRUD Operation.csproj|solutionrelative:crud operation\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Program.cs",
-              "RelativeDocumentMoniker": "CRUD Operation\\Program.cs",
-              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Program.cs",
-              "RelativeToolTip": "CRUD Operation\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T09:02:47.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AccessDenied.cshtml",
-              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Account\\AccessDenied.cshtml",
-              "RelativeDocumentMoniker": "CRUD Operation\\Views\\Account\\AccessDenied.cshtml",
-              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Account\\AccessDenied.cshtml",
-              "RelativeToolTip": "CRUD Operation\\Views\\Account\\AccessDenied.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Category\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUD Operation\\Views\\Category\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Category\\Delete.cshtml",
+              "RelativeToolTip": "CRUD Operation\\Views\\Category\\Delete.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBwAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T08:56:07.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T05:13:13.228Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "CRUD Operation\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "CRUD Operation\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T08:55:09.181Z",
-              "EditorCaption": ""
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUD Operation\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "CRUD Operation\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T05:12:56.978Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "CRUD Operation\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "CRUD Operation\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUD Operation\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "CRUD Operation\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T08:50:08.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-05T05:04:58.751Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CRUD Operation\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CRUD Operation\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAACwAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T08:49:56.225Z",
+              "Title": "DataAccessLayer.cs",
+              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Data\\DataAccessLayer.cs",
+              "RelativeDocumentMoniker": "CRUD Operation\\Data\\DataAccessLayer.cs",
+              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Data\\DataAccessLayer.cs",
+              "RelativeToolTip": "CRUD Operation\\Data\\DataAccessLayer.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T04:30:10.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "CRUD Operation\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "CRUD Operation\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-20T08:49:11.871Z",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "CRUD Operation\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\K.D. Nimavat\\source\\repos\\CRUD Operation\\CRUD Operation\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "CRUD Operation\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T11:13:18.847Z",
               "EditorCaption": ""
             }
           ]

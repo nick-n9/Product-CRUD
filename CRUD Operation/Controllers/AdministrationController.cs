@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace CRUD_Operation.Controllers
 {
     [Authorize(Roles = "Admin")]
+    [Route("/home/dahsboard")]
     public class AdministrationController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -18,6 +19,7 @@ namespace CRUD_Operation.Controllers
         }
 
         [HttpGet]
+        [Route("/test")]
         public IActionResult CreateRole()
         {
             return View();

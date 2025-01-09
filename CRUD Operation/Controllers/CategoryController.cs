@@ -1,103 +1,78 @@
-﻿using CRUD_Operation.Data;
+﻿using Microsoft.AspNetCore.Mvc;
 using CRUD_Operation.Models;
-using Microsoft.AspNetCore.Mvc;
+using CRUD_Operation.Data;
+using System.Collections.Generic;
 
 namespace CRUD_Operation.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
-        public CategoryController(ApplicationDbContext db)
+        private readonly DataAccessLayer _dataAccess;
+
+        public CategoryController(DataAccessLayer dataAccess)
         {
-            _db = db;
+            _dataAccess = dataAccess;
         }
+
         public IActionResult Index()
         {
-            List<Category> objCategoryList = _db.Categories.ToList();
-            return View(objCategoryList);
+            List<Category> categories = _dataAccess.GetAllCategories();
+            return View(categories);
         }
 
+        [HttpGet]
         public IActionResult Create()
         {
-            return View();  
-        }
-
-        [HttpPost]
-        public IActionResult Create(Category obj)
-        {
-            if (ModelState.IsValid)
-            { 
-                _db.Categories.Add(obj);    
-                _db.SaveChanges();
-                return RedirectToAction("Index","Category");
-            }
             return View();
         }
 
-        public IActionResult Edit(int? id)
-        {
-            if (id == null || id == 0)
-            {
-                return NotFound();
-            }
-            Category? CategoryFromDb = _db.Categories.Find(id);
-
-            if (CategoryFromDb == null)
-            {
-                return NotFound();
-            }   
-
-
-            return View(CategoryFromDb);
-        }
-
         [HttpPost]
-        public IActionResult Edit(Category obj)
+        public IActionResult Create(Category category)
         {
-            if (obj == null)
-            {
-                return NotFound();
-            }
-
             if (ModelState.IsValid)
             {
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
+                _dataAccess.InsertCategory(category);
                 return RedirectToAction("Index", "Category");
             }
-            return View();
+            return View(category);
         }
 
-        public IActionResult Delete(int? id)
+        [HttpGet]
+        public IActionResult Edit(int id)
         {
-            if (id == null || id == 0)
-            {
+            Category category = _dataAccess.GetCategoryById(id);
+            if (category == null)
                 return NotFound();
-            }
-            Category? CategoryFromDb = _db.Categories.Find(id);
+            return View(category);
+        }
 
-            if (CategoryFromDb == null)
+        [HttpPost]
+        public IActionResult Edit(Category category)
+        {
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                _dataAccess.UpdateCategory(category);
+                return RedirectToAction("Index", "Category");
             }
+            return View(category);
+        }
 
-
-            return View(CategoryFromDb);
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            Category category = _dataAccess.GetCategoryById(id);
+            if (category == null)
+                return NotFound();
+            return View(category);
         }
 
         [HttpPost, ActionName("Delete")]
-        
-        public IActionResult DeletePOST(int? id)
+        public IActionResult DeleteConfirmed(int id)
         {
-            Category? obj = _db.Categories.Find(id);
-            if (obj == null)
-            {
-                return NotFound();
-            }
-            _db.Categories.Remove(obj);
-            _db.SaveChanges();
+            _dataAccess.DeleteCategory(id);
             return RedirectToAction("Index", "Category");
-
         }
-    }   
+    }
+
+
 }

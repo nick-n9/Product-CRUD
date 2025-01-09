@@ -23,7 +23,7 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        @if (!SignInManager.IsSignedIn(User) && User.IsInRole("Admin") && User.IsInRole("Admin"))
+                        @if (SignInManager.IsSignedIn(User))
                         {
                             <li class="nav-item">
                                 <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
@@ -34,7 +34,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacy</a>
                             </li>
-                            @if (SignInManager.IsSignedIn(User) && User.IsInRole("Admin"))
+                            @if (User.IsInRole("Admin"))
                             {
                                 <li class="nav-item">
                                     <a class="nav-link" asp-controller="Administration" asp-action="ListRoles">
@@ -46,7 +46,6 @@
                     </ul>
 
                     <ul class="navbar-nav ml-auto">
-                        @*If the user is signed-in display Logout link*@
                         @if (SignInManager.IsSignedIn(User))
                         {
                             <li class="nav-item">
